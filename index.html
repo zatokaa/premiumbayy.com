@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Bayy - Made iT Simple</title>
+
+  <meta property="og:title" content="Premium Bayy - Made iT Simple">
+  <meta name="twitter:title" content="Premium Bayy - Made iT Simple">
+
+  <meta name="description"
+    content="We believe in the power of collaboration and the potential of great ideas. As a Sri Lankan company, we strive to bring people's visions to life by working together to develop innovative apps and provide a range of valuable services.">
+  <meta property="og:description"
+    content="We believe in the power of collaboration and the potential of great ideas. As a Sri Lankan company, we strive to bring people's visions to life by working together to develop innovative apps and provide a range of valuable services.">
+  <meta name="twitter:description"
+    content="We believe in the power of collaboration and the potential of great ideas. As a Sri Lankan company, we strive to bring people's visions to life by working together to develop innovative apps and provide a range of valuable services.">
+
+  <meta property="og:image" content="https://premiumbayy.com/assets/images/metalogo_new.png">
+  <meta name="twitter:image" content="https://premiumbayy.com/assets/images/metalogo_new.png">
+
+  <meta name="og:url" content="https://premiumbayy.com/">
+  
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+    <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+
+  <link rel="stylesheet" type="text/css" href="./assets/css/style2.css" />
+  <script type="text/javascript" src="./assets/js/modernizr.custom.28468.js"></script>
+  <noscript>
+    <link rel="stylesheet" type="text/css" href="./assets/css/nojs.css" />
+  </noscript>
+  
+ <!-- 
+    - custom js link
+  -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Premium Bayy - Web Development",
+  "url": "https://premiumbayy.com/",
+  "logo": "https://premiumbayy.com/assets/images/metalogo_new.png",
+  "sameAs": [
+    "https://www.facebook.com/premiumbayy/",
+    "https://www.instagram.com/premium_bayy/",
+    "https://www.trustpilot.com/review/premiumbayy.com"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "23/3 Old Hanguranketha road",
+    "addressLocality": "Gurudeniya",
+    "addressRegion": "",
+    "postalCode": "20189",
+    "addressCountry": "LK"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+94-77-776-6639",
+    "contactType": "Customer Service",
+    "email": "hello@premiumbayy.com"
+  },
+  "foundingDate": "2018-01-01"
+}
+</script>
+  
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- <script src="https://cdn.skypack.dev/pin/wc-toast@v1.3.0-lhxeip73WEHR36PMRSjm/mode=imports/optimized/wc-toast.js"></script> -->
+
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header style=" background: #171d21 !important; z-index: 1 !important; padding-block: 0px !important;">
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo_empty.png" style="height: 50px;" alt="PremiumBayy logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">SI</option>
+            <!-- <option value="ar">AR</option>
+            <option value="tu">TU</option> -->
+          </select>
+        </div>
+        <!-- <wc-toast></wc-toast>
+   <button class="toast">Hello</button> -->
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo_empty.png" style="height: 50px;" id="MainLogo" alt="PremiumBayy logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./services.html" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="./about.html" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="./faq.html" class="navbar-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://web.facebook.com/premiumbayy" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article >
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+       
+      </section>
+      <wc-toast></wc-toast>
+
+      <!-- 
+        - #UPCOMING
+      -->
+
+      <section class="main-banner">
+        
+        <div class="container">
+          <div id="da-slider" class="da-slider">
+            <div class="da-slide">
+              <div class="da-img"><img src="./assets/images/Remote-work.webp" alt="image01" style="height: 150%;" /></div>
+              <h2 class="h2 service-title">Empowering Your<br>Digital <span class="icoption">Success</span></h2>
+              <p class="card-text" style="top: 240px; ">Unlock the full potential of your ideas with our innovative digital solutions. Whether you need custom app development or tailored services, we turn your vision into reality.</p>
+              <!-- <a href="#" class="da-link">Read more</a> -->
+              
+            </div>
+            <div class="da-slide">
+              <div class="da-img"><img src="./assets/images/Anxiety.webp" alt="image01" style="height: 150%;" /></div>
+              <h2 class="h2 service-title">Stress-Free <br>Digital <span class="icoption">Solutions</span></h2>
+              <p class="card-text"  style="top: 240px;">We bring your vision to life with unmatched creativity and care. Forget the stress and anxiety—experience smooth, 
+                innovative solutions designed just for you!</p>
+              <!-- <a href="#" class="da-link">Read more</a> -->
+              
+            </div>
+            <div class="da-slide">
+              <div class="da-img"><img src="./assets/images/Call-center.webp" alt="image01" style="height: 150%;"/></div>
+              <h2 class="h2 service-title">Support You Can <br>Count On, <span class="icoption">24/7</span></h2>
+              <p class="card-text" style="top: 240px;">Day or night, we’re just a click away! PremiumBayy’s 24/7 Help Desk is here to provide instant solutions and unmatched support whenever you need it.</p>
+              <!-- <a href="#" class="da-link">Read more</a> -->
+              
+            </div>
+            <div class="da-slide">
+              <div class="da-img"><img src="./assets/images/Solution.webp" alt="image01" style="height: 150%;" /></div>
+              <h2 class="h2 service-title">Tailored Solutions<br>for <span class="icoption">Every Need</span></h2>
+              <p class="card-text" style="top: 240px;">At PremiumBayy, we specialize in offering customized services that meet the unique needs of your business, ensuring you get the best outcomes every time.</p>
+              <!-- <a href="#" class="da-link">Read more</a> -->
+              
+            </div>
+            <nav class="da-arrows" style="display: none;">
+              <span class="da-arrows-prev"></span>
+              <span class="da-arrows-next"></span>
+            </nav>
+          </div>
+            </div>
+
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <div class="service-banner">
+            <figure>
+              <img src="./assets/images/service-banner.png" alt="premiumbayy service banner">
+            </figure>
+
+            <a href="https://wa.me/message/M623B3XIAZULB1" download class="service-btn">
+              <span>WHATSAPP</span>
+
+              <ion-icon name="download-outline"></ion-icon>
+            </a>
+          </div>
+
+          <div class="service-content">
+
+            <p class="service-subtitle">Empowering Innovation,</p>
+
+            <h2 class="h2 service-title">Bringing Ideas to Life</h2>
+
+            <p class="service-text">
+              We believe in the power of collaboration and the potential of great ideas. As a Sri Lankan
+              company, we strive to bring people's visions to life by working together to develop innovative apps and
+              provide a range of valuable services.
+            </p>
+
+            <ul class="service-list">
+
+              <li>
+                <div class="service-card">
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <div class="card-contentX">
+                    <a href="#" class="trusted" style="padding-top: 30px; padding-left: 45px !important;">
+                      <img src="./assets/images/google.png" style="height:80px; " alt="trustpilot logo">
+                    </a>
+                  </div>
+
+                  <div class="card-contentX">
+                    <a href="https://www.trustpilot.com/review/premiumbayy.com" class="trusted"
+                      style="padding-top: 30px; padding-left: 70px !important;">
+                      <img src="./assets/images/trustpilot.png" style="height:100px; " alt="trustpilot logo">
+                    </a>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="cta-title">Subscribe to our Newsletter</h2>
+
+            <p class="cta-text">
+              Enter your email to stay updated.
+            </p>
+          </div>
+
+          <form action="" class="cta-form">
+            <input type="email" name="email" required placeholder="Enter your email" class="email-field">
+
+            <button type="submit" class="cta-form-btn">Get started</button>
+          </form>
+
+        </div>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo_empty.png" style="height: 50px;" alt="PremiumBayy logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="navbar-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="./faq.html" class="navbar-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="navbar-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+
+            <li>
+              <a href="./faq.html" class="quicklink-link">FAQ</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li> -->
+
+            <li>
+              <a href="./terms.html" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="./privacy-policy.html" class="quicklink-link">Privacy policy</a>
+            </li>
+            
+            <li>
+              <a href="./refund-policy.html" class="quicklink-link">Refund policy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://web.facebook.com/premiumbayy" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+        <p id="Disclaimer">All trademarks, logos and brand names are the property of their respective owners. All
+          company, product and
+          service names used in this website are for identification purposes only. <br>Use of these names,trademarks and
+          brands does not imply endorsement.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2025 <a href="#">Premium Bayy</a>. All Rights Reserved
+        </p>
+        <a href="https://support.payhere.lk/general-questions">
+          <img src="./assets/images/footer-bottom-img.png" style="height: 50px;" alt="Online banking companies logo"
+            class="footer-bottom-img">
+        </a>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/js/jquery.cslider.js"></script>
+  <script type="text/javascript">
+    $(function() {
+    
+      $('#da-slider').cslider({
+        autoplay	: true,
+        bgincrement	: 450
+      });
+    
+    });
+  </script>
+  
+
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z18RHBDBPH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Z18RHBDBPH');
+  </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <!--<script type="module" src="./assets/js/https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>-->
+  
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@5.5.2/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

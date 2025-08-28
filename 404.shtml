@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PremiumBayy - Error 404</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/images/favicon.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- TrustBox script -->
+  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+  <!-- End TrustBox script -->
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo_empty.png" style="height: 50px;" alt="PremiumBayy logo">
+      </a>
+
+      <div class="header-actions">
+
+        <button class="search-btn">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+
+        <div class="lang-wrapper">
+          <label for="language">
+            <ion-icon name="globe-outline"></ion-icon>
+          </label>
+
+          <select name="language" id="language">
+            <option value="en">EN</option>
+            <option value="au">SI</option>
+            <!-- <option value="ar">AR</option>
+            <option value="tu">TU</option> -->
+          </select>
+        </div>
+
+        <!-- <button class="btn btn-primary">Sign in</button> -->
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo_empty.png" style="height: 50px;" alt="PremiumBayy logo">
+          </a>
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="./shop.html" class="navbar-link">Shop</a>
+          </li>
+
+          <li>
+            <a href="./about.html" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="./faq.html" class="navbar-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="./contact.html" class="navbar-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-social-list">
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://web.facebook.com/premiumbayy" class="navbar-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <div class="about-banner">
+            <figure>
+              <img src="./assets/images/404.png" alt="privacy banner">
+            </figure>
+
+          </div>
+
+          <div class="service-content">
+
+            <p class="service-subtitle">premiumbayy.com</p>
+
+            <h1 class="h1 service-title">Error 404</h1>
+                <h2 class="h2 service-title">Page Not Found</h1>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/logo_empty.png" style="height: 50px;" alt="PremiumBayy logo">
+          </a>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="navbar-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="./faq.html" class="navbar-link">FAQ</a>
+            </li>
+
+            <li>
+              <a href="./contact.html" class="navbar-link">Contact Us</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="quicklink-wrapper">
+
+          <ul class="quicklink-list">
+            <br><br>
+            <li>
+              <a href="./faq.html" class="quicklink-link">FAQ</a>
+            </li>
+
+            <!-- <li>
+              <a href="#" class="quicklink-link">Help center</a>
+            </li> -->
+
+            <li>
+              <a href="./terms.html" class="quicklink-link">Terms of use</a>
+            </li>
+
+            <li>
+              <a href="./privacy-policy.html" class="quicklink-link">Privacy</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://web.facebook.com/premiumbayy" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+        <p id="Disclaimer">All trademarks, logos and brand names are the property of their respective owners. All
+          company, product and
+          service names used in this website are for identification purposes only. <br>Use of these names,trademarks and
+          brands does not imply endorsement.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Premium Bayy</a>. All Rights Reserved
+        </p>
+        <a href="https://support.payhere.lk/general-questions">
+          <img src="./assets/images/footer-bottom-img.png" style="height: 50px;" alt="Online banking companies logo"
+            class="footer-bottom-img">
+        </a>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
